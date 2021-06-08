@@ -1,0 +1,123 @@
+.phase-one {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: green;
+}
+
+.phase-one::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-one::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid green;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-two {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: blue;
+}
+
+.phase-two::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-two::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid blue;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-three {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: red;
+}
+
+.phase-three::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-three::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-four {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: orange;
+}
+
+.phase-four::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.phase-four::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid orange;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
