@@ -6,13 +6,13 @@
 }
 
 .phase-one::after {
-    content: "";
+    /* content: ""; */
     position: absolute;
     left: 0;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 20px solid white;
+    border-left: 20px solid green;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
 }
